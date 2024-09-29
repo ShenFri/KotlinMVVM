@@ -3,7 +3,7 @@ package com.example.baselib.base
 import android.app.Application
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/2/18 09:36
  */
 object BaseLibSDK {

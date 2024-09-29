@@ -7,7 +7,7 @@ import com.example.kotlinmvvm.databinding.FragmentMineBinding
 import com.example.kotlinmvvm.mine.model.MineViewModel
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 class MineFragment : BaseFragment<MineViewModel, FragmentMineBinding>(R.layout.fragment_mine, BR.mMineViewModel) {

@@ -7,7 +7,7 @@ import com.example.kotlinmvvm.databinding.ActivityWxarticleBinding
 import com.example.kotlinmvvm.home.model.WXArticleViewModel
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 class WXArticleActivity : BaseActivity<WXArticleViewModel, ActivityWxarticleBinding>(

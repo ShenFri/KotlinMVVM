@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.example.baselib.entity.AppActivityManager
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 class AppActivityLifecycleCallbacksImpl: Application.ActivityLifecycleCallbacks {

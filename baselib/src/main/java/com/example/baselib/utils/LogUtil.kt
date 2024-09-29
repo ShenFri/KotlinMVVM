@@ -4,7 +4,7 @@ import android.util.Log
 import com.example.baselib.constant.GlobalConstant.PRINGT_LOG
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/2/18 09:48
  */
 object LogUtil {

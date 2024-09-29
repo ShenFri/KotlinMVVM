@@ -12,7 +12,7 @@ import com.example.baselib.bean.WXArticleBean
 import com.example.kotlinmvvm.R
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/26
  */
 class WXArticleAdapter(

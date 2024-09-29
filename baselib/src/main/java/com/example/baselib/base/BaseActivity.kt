@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import java.lang.reflect.ParameterizedType
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/7
  */
 abstract class BaseActivity<VM : BaseAndroidViewModel<*>, VDB : ViewDataBinding>(

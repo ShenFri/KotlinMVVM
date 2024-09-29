@@ -5,7 +5,7 @@ import okhttp3.MediaType.Companion.toMediaType
 import java.nio.charset.Charset
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 object HttpsConstant {

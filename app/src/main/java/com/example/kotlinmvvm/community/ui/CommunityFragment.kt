@@ -7,7 +7,7 @@ import com.example.kotlinmvvm.community.model.CommunityViewModel
 import com.example.kotlinmvvm.databinding.FragmentCommunityBinding
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 class CommunityFragment : BaseFragment<CommunityViewModel, FragmentCommunityBinding>(

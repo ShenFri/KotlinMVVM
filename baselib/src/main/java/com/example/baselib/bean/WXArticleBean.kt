@@ -1,7 +1,7 @@
 package com.example.baselib.bean
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 data class WXArticleBean(

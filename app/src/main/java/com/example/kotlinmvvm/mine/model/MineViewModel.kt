@@ -5,7 +5,7 @@ import com.example.baselib.base.BaseAndroidViewModel
 import com.example.kotlinmvvm.home.respository.MineRespository
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 class MineViewModel(application: Application) : BaseAndroidViewModel<MineRespository>(application) {

@@ -20,7 +20,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 open class BaseAndroidViewModel<Repository : BaseRepository>(application: Application) :

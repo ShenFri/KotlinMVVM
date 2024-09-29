@@ -3,7 +3,7 @@ package com.example.baselib.utils
 import java.lang.reflect.ParameterizedType
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/7
  */
 object GenericsUtil {

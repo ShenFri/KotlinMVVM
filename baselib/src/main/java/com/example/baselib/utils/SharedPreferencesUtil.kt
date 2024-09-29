@@ -8,7 +8,7 @@ import com.example.baselib.base.BaseLibSDK
 
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 object SharedPreferencesUtil {

@@ -5,7 +5,7 @@ import com.example.baselib.base.BaseAndroidViewModel
 import com.example.kotlinmvc.main.respository.MainRespository
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 class MainViewModel(application: Application) : BaseAndroidViewModel<MainRespository>(application) {

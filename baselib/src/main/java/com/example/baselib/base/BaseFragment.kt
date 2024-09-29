@@ -13,7 +13,7 @@ import com.example.baselib.utils.GenericsUtil
 import java.lang.reflect.ParameterizedType
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/18
  */
 abstract class BaseFragment<VM : BaseAndroidViewModel<*>, VDB : ViewDataBinding>(private val contentViewResId: Int,

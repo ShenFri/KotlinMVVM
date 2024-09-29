@@ -3,7 +3,7 @@ package com.example.baselib.impl
 import android.view.View
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/19
  */
 class NoMultiClickListener(val delay: Int = 1000, val onNoMultiClick: (View) -> Unit) :

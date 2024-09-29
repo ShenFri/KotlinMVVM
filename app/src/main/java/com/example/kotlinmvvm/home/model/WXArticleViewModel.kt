@@ -12,7 +12,7 @@ import io.reactivex.rxjava3.core.Observer
 import io.reactivex.rxjava3.disposables.Disposable
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 class WXArticleViewModel(application: Application) :

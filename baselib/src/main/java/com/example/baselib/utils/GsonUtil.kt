@@ -4,7 +4,7 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 object GsonUtil {

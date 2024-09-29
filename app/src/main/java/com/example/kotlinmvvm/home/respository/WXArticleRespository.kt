@@ -6,7 +6,7 @@ import com.example.baselib.https.ApiResponse
 import io.reactivex.rxjava3.core.Observable
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 class WXArticleRespository : BaseRepository() {

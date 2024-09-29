@@ -18,7 +18,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 /**
- *Author: chinadragonz
+ *Author: shenfeiz
  *Time: 2024/5/19
  */
 class LoginViewModel(application: Application) :

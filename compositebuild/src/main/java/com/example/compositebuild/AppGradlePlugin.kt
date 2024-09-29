@@ -7,7 +7,7 @@ import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.dependencies
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/21
  */
 

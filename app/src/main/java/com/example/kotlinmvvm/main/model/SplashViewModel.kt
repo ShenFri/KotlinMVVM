@@ -5,7 +5,7 @@ import com.example.baselib.base.BaseAndroidViewModel
 import com.example.kotlinmvvm.home.respository.SplashRespository
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 class SplashViewModel(application: Application) :

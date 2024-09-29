@@ -10,7 +10,7 @@ import com.example.kotlinmvvm.home.ui.WXArticleActivity
 import com.example.kotlinmvvm.main.model.LoginViewModel
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/19
  */
 class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>(

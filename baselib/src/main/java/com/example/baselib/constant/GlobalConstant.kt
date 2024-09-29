@@ -1,7 +1,7 @@
 package com.example.baselib.constant
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/2/18 09:49
  */
 object GlobalConstant {

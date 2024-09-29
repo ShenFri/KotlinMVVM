@@ -5,7 +5,7 @@ import com.example.baselib.base.BaseLibSDK
 import com.example.baselib.global.AppActivityLifecycleCallbacksImpl
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/2/18 10:15
  */
 class App : Application() {

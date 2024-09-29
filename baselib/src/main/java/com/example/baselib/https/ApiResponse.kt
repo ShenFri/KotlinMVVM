@@ -1,7 +1,7 @@
 package com.example.baselib.https
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/19
  */
 data class ApiResponse<T>(

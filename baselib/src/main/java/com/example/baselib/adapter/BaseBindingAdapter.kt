@@ -6,7 +6,7 @@ import androidx.annotation.DrawableRes
 import androidx.databinding.BindingAdapter
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/26
  */
 class BaseBindingAdapter {

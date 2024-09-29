@@ -5,7 +5,7 @@ import com.example.baselib.utils.LogUtil
 import java.util.*
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/18
  */
 class AppActivityManager {

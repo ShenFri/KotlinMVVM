@@ -16,7 +16,7 @@ import java.net.URLDecoder
 import java.util.concurrent.TimeUnit
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/20
  */
 object RetrofitManager {

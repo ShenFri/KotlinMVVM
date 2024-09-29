@@ -6,7 +6,7 @@ import com.example.baselib.bean.WXArticleBean
 import com.example.baselib.https.ApiResponse
 
 /**
- *Author: chinadragon
+ *Author: shenfei
  *Time: 2024/5/25
  */
 class LoginRepository : BaseRepository() {

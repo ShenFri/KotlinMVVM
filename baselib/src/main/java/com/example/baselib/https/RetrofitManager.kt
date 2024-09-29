@@ -1,7 +1,7 @@
 package com.example.baselib.https
 
-import com.example.baselib.constant.HttpsConstant
 import com.example.baselib.constant.GlobalConstant
+import com.example.baselib.constant.HttpsConstant
 import com.example.baselib.constant.HttpsConstant.TIME_OUT_SECONDS
 import com.example.baselib.utils.GsonUtil
 import okhttp3.FormBody
@@ -26,6 +26,7 @@ object RetrofitManager {
 
     }
 
+
     private val client: OkHttpClient
         get() = OkHttpClient.Builder()
             .addInterceptor(headersInterceptor)
@@ -33,6 +34,9 @@ object RetrofitManager {
             .connectTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
             .writeTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
             .readTimeout(TIME_OUT_SECONDS, TimeUnit.SECONDS)
+            .sslSocketFactory(HttpsUtils.getSslSocketFactory().sSLSocketFactory!!,
+                HttpsUtils.getSslSocketFactory().trustManager!!
+            )
             .build()
 
     fun <T> getService(serviceClass: Class<T>): T {

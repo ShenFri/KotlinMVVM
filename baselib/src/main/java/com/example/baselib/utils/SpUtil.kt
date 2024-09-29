@@ -11,7 +11,7 @@ import com.example.baselib.base.BaseLibSDK
  *Author: shenfei
  *Time: 2024/5/20
  */
-object SharedPreferencesUtil {
+object SpUtil {
     val preferences: SharedPreferences by lazy {
         BaseLibSDK.getContext()
             .getSharedPreferences(GlobalConstant.APP_NAME + "PrefData", Context.MODE_PRIVATE)

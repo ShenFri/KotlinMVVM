@@ -1,5 +1,7 @@
 pluginManagement {
     repositories {
+        maven ( "https://mirrors.tencent.com/nexus/repository/maven-public/" )
+
         includeBuild("compositebuild")
         google()
         mavenCentral()
@@ -9,6 +11,8 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven ( "https://mirrors.tencent.com/nexus/repository/maven-public/" )
+        
         google()
         mavenCentral()
     }

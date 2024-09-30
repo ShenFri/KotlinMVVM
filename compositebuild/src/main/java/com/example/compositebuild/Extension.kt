@@ -21,6 +21,7 @@ fun DependencyHandlerScope.coreLib(){
     "api"(Libs.work_runtime_ktx)
     "api"(Libs.gson)
     "api"(Libs.permissionx)
+    "api"(Libs.androidAutoSize)
     "api"(Libs.logger)
     "api"(Libs.swiperefreshlayout)
     "api"(Libs.retrofit)

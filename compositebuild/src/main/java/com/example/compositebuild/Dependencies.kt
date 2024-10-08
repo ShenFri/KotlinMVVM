@@ -41,6 +41,7 @@ object Versions {
     const val permissionx = "1.7.1"
     const val glideVersion = "4.16.0"
     const val androidAutoSize = "v1.2.1"
+    const val mmkv = "1.3.9"
 
 }
 
@@ -83,5 +84,6 @@ object Libs {
     const val live_event_bus = "io.github.jeremyliao:live-event-bus-x:1.8.0"//https://github.com/JeremyLiao/LiveEventBus
     const val permissionx = "com.guolindev.permissionx:permissionx:${Versions.permissionx}"// https://github.com/guolindev/PermissionX
     const val androidAutoSize = "com.github.JessYanCoding:AndroidAutoSize:${Versions.androidAutoSize}"// https://github.com/JessYanCoding/AndroidAutoSize
+    const val mmkv = "com.tencent:mmkv:${Versions.mmkv}"// https://github.com/JessYanCoding/AndroidAutoSize
 
 }

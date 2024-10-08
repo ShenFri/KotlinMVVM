@@ -1,6 +1,7 @@
 package com.example.baselib.base
 
 import android.app.Application
+import com.tencent.mmkv.MMKV
 
 /**
  *Author: shenfei
@@ -10,6 +11,8 @@ object BaseLibSDK {
     private lateinit var mContext: Application
     fun init(context: Application) {
         mContext = context
+        val rootDir: String = MMKV.initialize(mContext)
+        println("mmkv root: $rootDir")
     }
 
     fun getContext(): Application {

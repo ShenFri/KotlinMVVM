@@ -22,6 +22,7 @@ fun DependencyHandlerScope.coreLib(){
     "api"(Libs.gson)
     "api"(Libs.permissionx)
     "api"(Libs.androidAutoSize)
+    "api"(Libs.mmkv)
     "api"(Libs.logger)
     "api"(Libs.swiperefreshlayout)
     "api"(Libs.retrofit)

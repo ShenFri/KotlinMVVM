@@ -4,9 +4,9 @@
 
 ### jetpack
 
-> [DataStore] https://juejin.cn/post/6965672958165516295  （不如MMKV）
+>-[DataStore] https://juejin.cn/post/6965672958165516295  （不如MMKV）
 >- [Compose Modifier] https://juejin.cn/post/6931932235553570823  （是Compose中的重要概念，能够让UI呈现更加专业、好看的视觉效果。）
-> [LiveData] https://juejin.cn/post/6844903886105362445
+>- [LiveData] https://juejin.cn/post/6844903886105362445
 > [ViewModel] https://www.jianshu.com/p/879036c1876b
 > [Paging] https://www.jianshu.com/p/0b7c82a5c27f （分页库）
 > [Navigation] https://www.jianshu.com/p/66b93df4b7a6 （一个可简化Android导航的库和插件）

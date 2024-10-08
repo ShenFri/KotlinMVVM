@@ -1,5 +1,6 @@
 package com.example.baselib.constant
 
+import com.example.baselib.BuildConfig
 import okhttp3.MediaType
 import okhttp3.MediaType.Companion.toMediaType
 import java.nio.charset.Charset
@@ -18,7 +19,8 @@ object HttpsConstant {
     val CHARSET: Charset = Charset.forName(URL_Decode_UTF_8)
 
     // api地址 https://www.wanandroid.com/blog/show/2
-    const val BASE_URL = "https://www.wanandroid.com/"
+//    const val BASE_URL = "https://www.wanandroid.com/"
+    const val BASE_URL = BuildConfig.URL
     const val LOGIN = "user/login"
     const val ARTICLE = "article/list/0/json" // 首页文章列表
     const val WX_ARTICLE = "wxarticle/chapters/json"

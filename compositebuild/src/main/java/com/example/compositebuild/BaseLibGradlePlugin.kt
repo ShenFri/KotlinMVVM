@@ -31,7 +31,11 @@ class BaseLibGradlePlugin : Plugin<Project> {
                     consumerProguardFiles("consumer-rules.pro")
                 }
                 buildTypes {
+                    debug {
+                        buildConfigField("String", "URL", "\"https://www.wanandroid.com/\"")
+                    }
                     release {
+                        buildConfigField("String", "URL", "\"https://www.wanandroid.com/\"")
                         isMinifyEnabled = false
                         proguardFiles(
                             getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -48,6 +52,7 @@ class BaseLibGradlePlugin : Plugin<Project> {
                 }
                 buildFeatures {
                     dataBinding = true
+                    buildConfig = true
                 }
             }
 

@@ -1,6 +1,8 @@
-### 备忘录
+### IBook
 
-### jietpack
+### [魔戒vpn](https://mojie.app/) 
+
+### jetpack
 
 [DataStore] https://juejin.cn/post/6965672958165516295  （不如MMKV）
 [Compose Modifier] https://juejin.cn/post/6931932235553570823  （是Compose中的重要概念，能够让UI呈现更加专业、好看的视觉效果。）
@@ -29,3 +31,8 @@ https://juejin.cn/post/6921337734216810504
 https://juejin.cn/post/6847902224467623950
 https://juejin.cn/post/6844904179505299469
 [单例模式] https://juejin.cn/post/6844904033619017741
+
+### 其他
+
+[学习站点](https://www.wanandroid.com/index)
+[Netty网络框架实践](https://blog.csdn.net/yan_chenglong/article/details/136302130)

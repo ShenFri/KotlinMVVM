@@ -1,28 +1,28 @@
 package com.example.kotlinmvvm.main.ui
 
-import android.content.Intent
-import com.example.baselib.base.BaseActivity
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
+import com.example.baselib.base.BaseFragment
 import com.example.baselib.impl.NoMultiClickListener
 import com.example.kotlinmvvm.BR
 import com.example.kotlinmvvm.R
-import com.example.kotlinmvvm.databinding.ActivityLoginBinding
-import com.example.kotlinmvvm.home.ui.WXArticleActivity
+import com.example.kotlinmvvm.databinding.FragmentLoginBinding
 import com.example.kotlinmvvm.main.model.LoginViewModel
 
 /**
  *Author: shenfei
  *Time: 2024/5/19
  */
-class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>(
-    R.layout.activity_login,
+class LoginFragment : BaseFragment<LoginViewModel, FragmentLoginBinding>(
+    R.layout.fragment_login,
     BR.mLoginViewModel
 ) {
-
+   private var  navController :NavController = findNavController()
     override fun initEvent() {
         super.initEvent()
         with(binding) {
             btnLookWXArticle.setOnClickListener(NoMultiClickListener {
-                startActivity(Intent(this@LoginActivity, WXArticleActivity::class.java))
+                navController.navigate(R.id.wxArticleFragment)
             })
         }
 
@@ -31,8 +31,8 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>(
 //
 //                return@observe
 //            }
-            startActivity(Intent(this, MainActivity::class.java))
-            finish()
+            val action = MainFragmentDirections.actionMainFragmentSelf("22222")
+           navController.navigate(action)
         }
     }
 

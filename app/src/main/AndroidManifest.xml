@@ -16,7 +16,7 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
-            android:name="com.example.kotlinmvvm.main.ui.SplashActivity"
+            android:name="com.example.kotlinmvvm.main.ui.NavActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -32,23 +32,6 @@
         <meta-data
             android:name="design_height_in_dp"
             android:value="640" />
-
-        <activity
-            android:name="com.example.kotlinmvvm.main.ui.LoginActivity"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.example.kotlinmvvm.main.ui.MainActivity"
-            android:exported="false"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".home.ui.WXArticleActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
 
     </application>
 

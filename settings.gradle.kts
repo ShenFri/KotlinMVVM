@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
-        maven ( "https://mirrors.tencent.com/nexus/repository/maven-public/" )
-
         includeBuild("compositebuild")
+        maven ( "https://maven.aliyun.com/repository/public/" )
+        maven ( "https://jitpack.io" )
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -11,8 +11,8 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven ( "https://mirrors.tencent.com/nexus/repository/maven-public/" )
-        
+        maven ( "https://maven.aliyun.com/repository/public/" )
+        maven ( "https://jitpack.io" )
         google()
         mavenCentral()
     }

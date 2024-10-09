@@ -8,6 +8,7 @@
 >- [ViewModel] https://www.jianshu.com/p/879036c1876b
 >- [Paging] https://www.jianshu.com/p/0b7c82a5c27f （分页库）
 >- [Navigation] https://www.jianshu.com/p/66b93df4b7a6 （一个可简化Android导航的库和插件）
+>- https://developer.android.com/guide/navigation?hl=zh-cn#kts
 >- [DataBinding] https://juejin.cn/post/6844903844581736462
 
 ### framework

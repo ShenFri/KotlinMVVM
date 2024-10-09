@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.kotlinmvvm.main.ui.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.kotlinmvvm.main.ui.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_WXArticleFragment"
+            app:destination="@id/wxArticleFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wxArticleFragment"
+        android:name="com.example.kotlinmvvm.home.ui.WXArticleFragment"
+        android:label="WXArticleFragment"
+        tools:layout="@layout/fragment_wxarticle" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.kotlinmvvm.main.ui.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main_nav">
+        <argument
+            android:name="key"
+            android:defaultValue="test"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_mainFragment_self"
+            app:destination="@id/mainFragment" />
+
+    </fragment>
+</navigation>

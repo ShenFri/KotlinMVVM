@@ -1,5 +1,6 @@
 package com.example.baselib.extension
 
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.CoroutineScope
@@ -16,7 +17,7 @@ import kotlinx.coroutines.launch
  */
 
 
-fun FragmentActivity.countDown(
+fun Fragment.countDown(
     timeMillis: Long = 1000,//默认时间间隔 1 秒
     time: Int = 3,//默认时间为 3 秒
     start: (scop: CoroutineScope) -> Unit,

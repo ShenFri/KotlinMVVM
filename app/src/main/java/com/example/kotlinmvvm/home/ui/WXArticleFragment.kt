@@ -1,17 +1,17 @@
 package com.example.kotlinmvvm.home.ui
 
-import com.example.baselib.base.BaseActivity
+import com.example.baselib.base.BaseFragment
 import com.example.kotlinmvvm.BR
 import com.example.kotlinmvvm.R
-import com.example.kotlinmvvm.databinding.ActivityWxarticleBinding
+import com.example.kotlinmvvm.databinding.FragmentWxarticleBinding
 import com.example.kotlinmvvm.home.model.WXArticleViewModel
 
 /**
  *Author: shenfei
  *Time: 2024/5/25
  */
-class WXArticleActivity : BaseActivity<WXArticleViewModel, ActivityWxarticleBinding>(
-    R.layout.activity_wxarticle,
+class WXArticleFragment : BaseFragment<WXArticleViewModel, FragmentWxarticleBinding>(
+    R.layout.fragment_wxarticle,
     BR.mWXArticleViewModel
 ) {
     override fun loadData() {

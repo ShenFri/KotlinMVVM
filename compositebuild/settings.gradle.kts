@@ -1,11 +1,8 @@
 dependencyResolutionManagement {
 
     repositories {
-
         google()
-
         mavenCentral()
-
     }
 
 }

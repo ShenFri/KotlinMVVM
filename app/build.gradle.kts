@@ -1,6 +1,7 @@
 plugins {
     id("app.gradle.plugin")
     id("kotlin-kapt")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {

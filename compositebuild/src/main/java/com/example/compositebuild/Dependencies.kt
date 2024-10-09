@@ -7,15 +7,15 @@ object CommonDefaultConfig {
 }
 
 object JavaVersions {
-    val sourceCompatibility = JavaVersion.VERSION_17
-    val targetCompatibility = JavaVersion.VERSION_17
-    val jvmTarget = JavaVersion.VERSION_17.toString()
+    val sourceCompatibility = JavaVersion.VERSION_1_8
+    val targetCompatibility = JavaVersion.VERSION_1_8
+    val jvmTarget = JavaVersion.VERSION_1_8.toString()
 }
 
 object Versions {
 
     const val compileSdk = 34
-    const val minSdk = 23
+    const val minSdk = 26
     const val targetSdk = 34
     const val versionCode = 1
     const val versionName = "1.0.0"
@@ -42,6 +42,7 @@ object Versions {
     const val glideVersion = "4.16.0"
     const val androidAutoSize = "v1.2.1"
     const val mmkv = "1.3.9"
+    const val nav_version = "2.8.0"
 
 }
 
@@ -85,5 +86,10 @@ object Libs {
     const val permissionx = "com.guolindev.permissionx:permissionx:${Versions.permissionx}"// https://github.com/guolindev/PermissionX
     const val androidAutoSize = "com.github.JessYanCoding:AndroidAutoSize:${Versions.androidAutoSize}"// https://github.com/JessYanCoding/AndroidAutoSize
     const val mmkv = "com.tencent:mmkv:${Versions.mmkv}"// https://github.com/JessYanCoding/AndroidAutoSize
+    const val nav_fragment = "androidx.navigation:navigation-fragment:${Versions.nav_version}"// https://github.com/android/codelab-android-navigation
+    const val nav_ui = "androidx.navigation:navigation-ui:${Versions.nav_version}"
+    const val nav_safe_args = "androidx.navigation:navigation-safe-args-gradle-plugin:${Versions.nav_version}"
+    const val nav_compose = "androidx.navigation:navigation-compose:${Versions.nav_version}"
+    const val nav_runtime = "androidx.navigation:navigation-runtime:${Versions.nav_version}"
 
 }

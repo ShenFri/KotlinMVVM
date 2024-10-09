@@ -1,5 +1,6 @@
 package com.example.compositebuild
 
+import com.android.build.api.dsl.BuildFeatures
 import com.android.build.api.dsl.CommonExtension
 import org.gradle.api.plugins.ExtensionAware
 import org.gradle.kotlin.dsl.DependencyHandlerScope
@@ -23,6 +24,11 @@ fun DependencyHandlerScope.coreLib(){
     "api"(Libs.permissionx)
     "api"(Libs.androidAutoSize)
     "api"(Libs.mmkv)
+    "api"(Libs.nav_fragment)
+    "api"(Libs.nav_ui)
+    "api"(Libs.nav_safe_args)
+    "api"(Libs.nav_runtime)
+//    "api"(Libs.nav_compose)
     "api"(Libs.logger)
     "api"(Libs.swiperefreshlayout)
     "api"(Libs.retrofit)

@@ -7,9 +7,9 @@ object CommonDefaultConfig {
 }
 
 object JavaVersions {
-    val sourceCompatibility = JavaVersion.VERSION_1_8
-    val targetCompatibility = JavaVersion.VERSION_1_8
-    val jvmTarget = JavaVersion.VERSION_1_8.toString()
+    val sourceCompatibility = JavaVersion.VERSION_17
+    val targetCompatibility = JavaVersion.VERSION_17
+    val jvmTarget = JavaVersion.VERSION_17.toString()
 }
 
 object Versions {
@@ -86,10 +86,7 @@ object Libs {
     const val permissionx = "com.guolindev.permissionx:permissionx:${Versions.permissionx}"// https://github.com/guolindev/PermissionX
     const val androidAutoSize = "com.github.JessYanCoding:AndroidAutoSize:${Versions.androidAutoSize}"// https://github.com/JessYanCoding/AndroidAutoSize
     const val mmkv = "com.tencent:mmkv:${Versions.mmkv}"// https://github.com/JessYanCoding/AndroidAutoSize
-    const val nav_fragment = "androidx.navigation:navigation-fragment:${Versions.nav_version}"// https://github.com/android/codelab-android-navigation
-    const val nav_ui = "androidx.navigation:navigation-ui:${Versions.nav_version}"
-    const val nav_safe_args = "androidx.navigation:navigation-safe-args-gradle-plugin:${Versions.nav_version}"
-    const val nav_compose = "androidx.navigation:navigation-compose:${Versions.nav_version}"
-    const val nav_runtime = "androidx.navigation:navigation-runtime:${Versions.nav_version}"
+    const val nav_fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.nav_version}"// https://github.com/android/codelab-android-navigation
+    const val nav_ui = "androidx.navigation:navigation-ui-ktx:${Versions.nav_version}"//https://juejin.cn/post/7036296113573347364
 
 }

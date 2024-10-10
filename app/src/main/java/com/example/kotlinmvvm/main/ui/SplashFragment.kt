@@ -1,6 +1,8 @@
 package com.example.kotlinmvvm.main.ui
 
 import android.widget.TextView
+import androidx.navigation.NavController
+import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.example.baselib.base.BaseFragment
 import com.example.baselib.extension.countDown
@@ -21,9 +23,10 @@ class SplashFragment :
     BaseFragment<SplashViewModel, FragmentSplashBinding>(R.layout.fragment_splash,BR.mSplashViewModel) {
     private var mCountDownJob: CoroutineScope? = null
     private lateinit var tvCountDown: TextView
-    private val navController = findNavController()
+    private lateinit var navController : NavController
     override fun initData() {
         super.initData()
+        navController = findNavController()
         val second3 = 3
         tvCountDown = binding.tvCountDown
         this.countDown(time = second3, start = {
@@ -32,7 +35,9 @@ class SplashFragment :
         }, end = {
             LogUtil.i("SplashActivity", "倒计时结束了")
             //正式项目里需要判断用户是否已登录 TODO
-            navController.navigate(R.id.loginFragment)
+//            navController.navigate(R.id.loginFragment)
+            val action = SplashFragmentDirections.actionSplashFragmentToLoginFragment()
+            navController.navigate(action)
         }, next = {
             LogUtil.i("SplashActivity", "剩余 $it 秒")
             tvCountDown.setText("跳过 ${it - 1} 秒")
@@ -44,7 +49,8 @@ class SplashFragment :
 
     override fun initEvent() {
         tvCountDown.setOnClickListener(NoMultiClickListener{
-            navController.navigate(R.id.loginFragment)
+            val action = SplashFragmentDirections.actionSplashFragmentToLoginFragment()
+            navController.navigate(action)
         })
     }
 

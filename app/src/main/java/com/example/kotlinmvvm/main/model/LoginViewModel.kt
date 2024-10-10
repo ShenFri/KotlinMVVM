@@ -54,23 +54,23 @@ class LoginViewModel(application: Application) :
     }
 
     fun loginClick(view: View) {
-        view.setOnClickListener(NoMultiClickListener {
+//        view.setOnClickListener(NoMultiClickListener {
             val userName = username.get()
             val pwd = pwd.get()
             if (userName.isNullOrBlank() || pwd.isNullOrBlank()) {
                 ToastUtil.show(getString(R.string.login_error_tip))
-                return@NoMultiClickListener
+                return
             }
             login(userName, pwd)
-        })
+//        })
     }
 
     fun login(username: String, pwd: String) {
         val map = mapOf("username" to username, "password" to pwd)
         //模拟登录
         viewModelScope.launch {
-            delay(400)
-            loginLiveData.value = null
+//            delay(400)
+            loginLiveData.postValue(UserInfoBean("pwd","account",""))
         }
 
         /*launchApiCall({ repository.login(map) }, {

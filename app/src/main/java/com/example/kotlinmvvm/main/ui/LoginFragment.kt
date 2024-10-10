@@ -17,7 +17,11 @@ class LoginFragment : BaseFragment<LoginViewModel, FragmentLoginBinding>(
     R.layout.fragment_login,
     BR.mLoginViewModel
 ) {
-   private var  navController :NavController = findNavController()
+    private lateinit var navController : NavController
+    override fun initData() {
+        super.initData()
+        navController = findNavController()
+    }
     override fun initEvent() {
         super.initEvent()
         with(binding) {
@@ -27,11 +31,11 @@ class LoginFragment : BaseFragment<LoginViewModel, FragmentLoginBinding>(
         }
 
         mViewModel.loginLiveData.observe(this) {
-//            if (it == null) {
-//
-//                return@observe
-//            }
-            val action = MainFragmentDirections.actionMainFragmentSelf("22222")
+            if (it == null) {
+
+                return@observe
+            }
+            val action = LoginFragmentDirections.actionLoginFragmentToMainActivity("222")
            navController.navigate(action)
         }
     }
